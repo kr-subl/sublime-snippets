@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+angular.module('$1.$0', [
+
+]).controller('$0', $0);
+
+function $0() {
+
+}
+]]></content>
+<tabTrigger>ngc</tabTrigger>
+<description>angular controller</description>
+</snippet>

@@ -1,0 +1,38 @@
+<snippet>
+<content><![CDATA[
+describe "$1", ->
+    scope = el = directiveScope = vm = \$compile = $4 = null
+
+    $7Element = "[ng-click='vm.$7()']"
+
+    beforeEach module "si.$2.$1"
+
+    beforeEach inject (\$rootScope, _\$compile_) ->
+        scope = \$rootScope.\$new()
+        \$compile = _\$compile_
+
+    beforeEach ->
+        el = null
+        $4 = $4Factory.create()
+
+    compile = (tpl = template) ->
+        el = angular.element(tpl)
+        scope.$4 = $4
+        \$compile(el)(scope)
+        scope.\$digest()
+        directiveScope = el.isolateScope()
+        vm = directiveScope.vm
+
+    template = "<$5 $6=\"$4\"></$5>"
+
+    describe "compile()", ->
+
+        it "holds a given $4 in its scope", ->
+            compile()
+            expect(vm.$4).toBe($4)
+
+    $0
+]]></content>
+<tabTrigger>ngdspec</tabTrigger>
+<description>angular directive spec</description>
+</snippet>

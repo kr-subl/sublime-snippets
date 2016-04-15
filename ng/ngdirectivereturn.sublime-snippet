@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+return {
+    restrict: 'E',
+    template: '<p>new tpl</p>',
+    scope: {
+
+    },
+    controller: controllerFn,
+    controllerAs: 'vm',
+    bindToController: true
+};
+]]></content>
+<tabTrigger>ngdr</tabTrigger>
+<description>angular directive return</description>
+</snippet>

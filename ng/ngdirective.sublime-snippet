@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+angular.module('$1.$0', [
+
+]).directive('$0', $0);
+
+function $0() {
+
+}
+]]></content>
+<tabTrigger>ngd</tabTrigger>
+<description>angular directive</description>
+</snippet>

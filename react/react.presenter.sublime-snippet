@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+import React from 'react';
+
+function $1({ $2 }) {
+    $0
+}
+
+$1.propTypes = {
+
+};
+
+export {
+    $1
+};
+]]></content>
+<tabTrigger>rp</tabTrigger>
+<description>react presenter</description>
+</snippet>

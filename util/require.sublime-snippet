@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+require('$0').name
+]]></content>
+<tabTrigger>req</tabTrigger>
+<description>require</description>
+</snippet>

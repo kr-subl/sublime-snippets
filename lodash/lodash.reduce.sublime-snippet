@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+reduce($1 ,(result, value, key) => {
+    $0;
+    return result;
+}, $2);
+]]></content>
+<tabTrigger>lr</tabTrigger>
+<description>lodash reduce</description>
+</snippet>

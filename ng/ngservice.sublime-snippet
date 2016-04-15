@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+angular.module('$1.$0', [
+
+]).service('$0', $0);
+
+function $0() {
+
+}
+]]></content>
+<tabTrigger>ngs</tabTrigger>
+<description>angular service</description>
+</snippet>

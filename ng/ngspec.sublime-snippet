@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+describe "$1", ->
+
+    $1 = null
+
+    beforeEach module "si.$2.$1"
+
+    beforeEach inject (_$1_) ->
+        $1 = _$1_
+
+    beforeEach ->
+
+    describe "", ->
+
+        it "", ->
+
+    $0
+]]></content>
+<tabTrigger>ngspec</tabTrigger>
+<description>angular spec</description>
+</snippet>

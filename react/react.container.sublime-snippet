@@ -1,0 +1,36 @@
+<snippet>
+<content><![CDATA[
+import React from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+
+function $1({ $2 }) {
+    $0
+}
+
+function mapStateToProps(state) {
+    return {
+        $2: state.$5,
+    };
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        $3: bindActionCreators($4, dispatch),
+    };
+}
+
+$1.propTypes = {
+    $3: React.PropTypes.func,
+};
+
+const $1Container = connect(mapStateToProps, mapDispatchToProps)($1);
+
+export {
+    $1,
+    $1Container
+};
+]]></content>
+<tabTrigger>rc</tabTrigger>
+<description>react container</description>
+</snippet>

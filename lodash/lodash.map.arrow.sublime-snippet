@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+map($1 ,($2) => $0);
+]]></content>
+<tabTrigger>lma</tabTrigger>
+<description>lodash map arrow</description>
+</snippet>
